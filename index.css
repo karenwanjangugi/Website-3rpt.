@@ -1,0 +1,381 @@
+.body{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.navbar nav {
+    background-color: white;
+    padding: 1rem;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar nav a:hover {
+    color: orange
+}
+.navbar nav a:active {
+    color: #aaa;
+}
+.navbar nav a {
+    transition: color 0.1s ease;
+}
+ header{
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex; 
+    justify-content:space-between ;
+
+}
+.contact-info{
+    text-align: right;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.email{
+    text-align: left;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ .contact-info a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.email a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.email i{
+    color: blue;
+
+}
+.contact-info i{
+    color: blue;
+}
+.email label{
+    font-size: smaller;
+}
+.contact-info label{
+    font-size: smaller;
+    text-align: left;
+}
+.first-background-image{ 
+    background-image: url(images/movingday.jpg); min-height: 600px;
+    background-repeat: no-repeat ;
+    position: relative;
+    background-size: cover;
+    background-attachment: scroll;
+    display: block;
+    padding: 100px 100px;
+    object-fit: contain;
+    margin: 0 auto;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: white;
+    
+    
+}
+
+.textinimage{
+    margin-top: 100px;
+    font-weight: bolder;
+}
+.first-background-image .button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 16px;
+    width: 20%;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.movingwithriaad{
+    display:table;
+    
+    padding: 40px;
+    
+ }
+ .learn-abt {
+
+display: flex;
+padding: 10% ;
+align-content: center;
+margin-top: 0;
+ 
+ }
+ .movingwithriaad a{
+    color:orange
+ }
+ .riaad-since{
+    
+    padding: 20px;
+ }
+ .riaad-since a{
+    color: orange;
+    margin-top: 40px;
+ }
+.moreinfo-on-riaadsince{
+    
+    padding: 10%;
+    margin-left: 60px;
+}
+
+.whatwedo{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.whatwedo a{
+    color: orange;
+}
+.ourservices{
+background-color: white;
+text-align: center;
+
+}
+.requestaquote{
+    background-color: orange;
+    padding: 50px;
+    text-align: end;
+    float: left;
+    width: 40%;
+}
+
+
+.image img{
+    height: 300px;
+}
+ 
+.riaadsince-and-text{
+    
+    display: flex;
+}
+
+.logos{
+
+    display: flex;
+    margin-left: 20%;
+    height: 100px;
+}
+.ourservices a{
+    font-size: smaller;
+    color: orange;
+
+}
+.riaadverified{
+    background-color: blue;
+    padding: 20px;
+    background-image: url(images/brandable-box-yiU8G1K85AM-unsplash.jpg);min-height:auto;
+    width: 220px;
+
+}
+.storage{
+    background-color: blue;
+    padding: 3%;
+}
+.Packing{
+    padding: 3%;
+}
+.transport{
+    padding: 3%;
+}
+.Insurance{
+    padding: 3%;
+}
+.helpingyouandvideo{
+    display: flex;
+    justify-content: space-between;
+
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+}
+.video img{
+height: 90px;
+width: 140px;
+border: 1px solid wheat;
+}
+
+.whychooseriaad{
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.weareleading{
+    padding: 40px;
+    float: right;
+}
+#chooseriaad{
+    color: orange;
+}
+.riaadverified a{
+    color: orange;
+}
+#Verified{
+    color: white;
+}
+#bookonline{
+    color: orange;
+}
+#contactus{
+    text-align: center;
+}
+
+.totalinfo{
+    display: flex;
+}
+.info{
+    background-color: blue;
+    width: 50%;
+    padding: 31px;
+    color: whitesmoke;
+}
+.info input{
+    padding: 10px;
+    width: 50%;
+}
+.infodate{
+    background-color: blue;
+    width: 50%;
+    padding: 31px 20px 10px;
+    color: whitesmoke;
+
+}
+.infodate button{
+    border: none;
+    padding: 10px;
+    width: 50%;
+    background-color: orange;
+}
+.infodate a{
+    color: white;
+    text-decoration: none;
+}
+.infodate input{
+    padding: 10px;
+    width: 50%;
+}
+.totalinfoandrequest{
+    display: flex;
+}
+.requestaquote a{
+    color: white;
+}
+.requestaquote h1{
+    color: white;
+}
+.formlastpart a{
+color: orange;
+}
+
+.testimonials{
+    text-align: center;
+}
+.testimonies{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.testimonies p{ 
+    padding: 20px;
+}
+.discovermore{
+    background-color: orange;
+    padding: 40px;
+    color: #f0f0f0;
+    display: flex; 
+    justify-content: space-between;
+}
+.discovermore button{
+    display: flex;
+
+    border: none;
+    padding: 20px;
+    background-color: rgb(24, 20, 20);
+    font-size: small;
+}
+.discovermore a{
+    color: white;
+    text-decoration: none;
+}
+
+.moreabout{
+    background-color: rgb(24, 20, 20);
+    display: flex;
+    padding-left: 40%;
+    color: #aaa;
+}
+.moreabout ul{
+    list-style-type:none;
+
+}
+
+.icons{
+    
+    justify-content:space-around;
+}
+#copyright{
+    background-color: rgb(24, 20, 20);
+    padding: 2%;
+    text-align: center;
+        color: #aaa;
+ }
+
+ .lastpartoftheform{
+    background-color: rgb(24, 20, 20);
+
+ }
+ .emailaddress{
+    text-align: center;
+ }
+ .emailaddress input{
+    border: none;
+    padding: 10px;
+    
+ }
+ .emailaddress button{
+    border: none;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+ }
+ .emailaddress a{
+    color: white;
+    text-decoration: none;
+ }
+ .newsletter{
+    text-align: center;
+ }
+ .ourblog{
+    text-align: center;
+ }
+  .newsandarticles{
+    display: flex;
+    justify-content: space-around;
+    min-height: auto;
+    
+  }
+  .newsandarticles img{
+    width: 33.31%;
+    min-height: 10%;
+    display: flex;
+    justify-content: space-around;
+  }
