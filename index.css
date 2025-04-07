@@ -1,5 +1,6 @@
 .body{
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 
@@ -113,9 +114,10 @@
  .learn-abt {
 
 display: flex;
-padding: 10% ;
+
 align-content: center;
 margin-top: 0;
+
  
  }
  .movingwithriaad a{
@@ -123,7 +125,7 @@ margin-top: 0;
  }
  .riaad-since{
     
-    padding: 20px;
+    padding: 10px;
  }
  .riaad-since a{
     color: orange;
@@ -131,8 +133,8 @@ margin-top: 0;
  }
 .moreinfo-on-riaadsince{
     
-    padding: 10%;
-    margin-left: 60px;
+    padding: 2%;
+    margin-left: 20px;
 }
 
 .whatwedo{
@@ -170,12 +172,17 @@ text-align: center;
 .logos{
 
     display: flex;
-    margin-left: 20%;
-    height: 100px;
+    /* margin-left: 10%; */
+    height: 150px;
+    
+}
+.logos img{
+    width: 20%;
 }
 .ourservices a{
     font-size: smaller;
     color: orange;
+    width: 10%;
 
 }
 .riaadverified{
